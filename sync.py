@@ -123,6 +123,3 @@ else:
     logger.debug("==> No changes found in custom.list or 05-pihole-custom-cname.conf")
 
 exit()
-
-# logger.debug("==> Executing gravity-sync on port.3os.re")
-# system("/usr/bin/ssh -tt root@port.3os.re '/bin/bash /root/gravity-sync/gravity-sync.sh'")
